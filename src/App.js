@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import 'flowbite';
+import Page from "./routes/Page";
 
 const App = () => {
   return (
-    <div className='text-center'>App</div>
-  )
-}
+    <>
+      <Page />
+    </>
+  );
+};
 
-export default App
+export default App;
